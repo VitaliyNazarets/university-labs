@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="ManageDatabase.Column">
+    <Position X="8.25" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAABAAAAAAkAEAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Column.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="ColumnType" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="ManageDatabase.Database">
+    <Position X="3.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAEAAAAAIAAAAAQAQAQAEAAEACAAAAQAAAAAA=</HashCode>
+      <FileName>Models\Database.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Property Name="Tables" />
+    </ShowAsCollectionAssociation>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="ManageDatabase.DBs">
+    <Position X="0.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAEEAAAAAAAAAAAAAAAAEAAEACAAAAQAAAAAA=</HashCode>
+      <FileName>Models\DBs.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Property Name="Databases" />
+    </ShowAsCollectionAssociation>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="ManageDatabase.Table">
+    <Position X="5.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAEAAAAEAAAAAAAAQAAAEAAEACAAAAQAgAAAA=</HashCode>
+      <FileName>Models\Table.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Property Name="Rows" />
+      <Property Name="Columns" />
+    </ShowAsCollectionAssociation>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="ManageDatabase.Row">
+    <Position X="8" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Row.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Enum Name="ManageDatabase.ColumnType">
+    <Position X="11" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAQAAAACAAAAAAAiAAAAAAgAAACAA=</HashCode>
+      <FileName>Models\ColumnType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
